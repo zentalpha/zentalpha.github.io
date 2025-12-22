@@ -1,3 +1,3 @@
-var posts=["2025/12/12/hello-world/","2025/12/13/关于本站/"];function toRandomPost(){
+var posts=["2025/12/22/你是如何访问到这个网站的/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
